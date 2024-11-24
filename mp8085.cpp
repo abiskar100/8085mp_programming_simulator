@@ -154,7 +154,6 @@ int main() {
     p.LXI(p.h, p.l, 2050);
     p.MVI(p.b, 0);
 
-loop1:
     p.INR(p.b);
 
     std::cout<< static_cast<int>(p.b) << std::endl;
