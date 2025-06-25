@@ -146,6 +146,10 @@ struct mp{
             cb(*this);
         }
     }
+
+    void printS(int value){
+    std::cout<< value << std::endl;
+    }
 };
  
 int main() {
@@ -156,6 +160,5 @@ int main() {
 
     p.INR(p.b);
 
-    std::cout<< static_cast<int>(p.b) << std::endl;
+    p.printS(p.b);
 }
-
